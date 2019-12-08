@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AIPlayer.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="LetterBag.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scrabble.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="WordsMechanics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{51b595e2-0845-4e1b-b5e2-b94711838039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{f545e8fa-1e98-427d-a53e-075f0fcec347}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\AIPlayer.h" />
+    <ClInclude Include="Headers\Board.h" />
+    <ClInclude Include="Headers\FileManager.h" />
+    <ClInclude Include="Headers\LetterBag.h" />
+    <ClInclude Include="Headers\Player.h" />
+    <ClInclude Include="Headers\QuickSort.h" />
+    <ClInclude Include="Headers\Scrabble.h" />
+    <ClInclude Include="Headers\UI.h" />
+    <ClInclude Include="Headers\Word.h" />
+    <ClInclude Include="Headers\WordsMechanics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="legalwords.txt" />
+    <Text Include="words.txt" />
+  </ItemGroup>
+</Project>
