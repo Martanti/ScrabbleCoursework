@@ -4,3 +4,5 @@ Coursework project for university algorithm-oriented module, where the task was 
 The provided dictionary of words has many words that would not be legal in real scrabble games and there are many scrabble-legal words that are absent or removed by the provided filters.
 
 The project was done in about 40 days.
+
+The original repository used for the coursework had 45 commits.
