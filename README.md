@@ -6,3 +6,5 @@ The provided dictionary of words has many words that would not be legal in real 
 The project was done in about 40 days.
 
 The original repository used for the coursework had 45 commits.
+
+There were slight modifications after the final version as there were memory leaks caused by the sorting algorithm.
